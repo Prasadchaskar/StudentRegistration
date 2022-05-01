@@ -1,0 +1,7 @@
+#### Create Database #####
+CREATE DATABASE StudDetails;
+
+USE StudDetails;
+
+#### Create Table ####
+CREATE TABLE Student(RollNo INT PRIMARY_KEY, Name VRACHAR(20), Phone VARCHAR(10));
